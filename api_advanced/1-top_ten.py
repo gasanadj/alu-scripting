@@ -1,7 +1,6 @@
 #!/usr/bin/python3
+""" This module returns the top ten hot posts for a subreddit"""
 import requests
-"""This module returns the titles of the first 10
-hot posts for a subreddit"""
 
 
 def top_ten(subreddit):

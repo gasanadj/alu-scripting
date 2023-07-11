@@ -1,7 +1,6 @@
 #!/usr/bin/python3
+""" This module returns the number of subscribers """
 import requests
-"""This module returns the number of 
-subscribers for a given reddit"""
 
 
 def number_of_subscribers(subreddit):
