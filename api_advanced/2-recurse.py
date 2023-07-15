@@ -20,9 +20,9 @@ def recurse(subreddit, hot_list=[], after=None):
                 after = data.get('after')
                 if after is not None:
                     return recurse(subreddit, hot_list, after)
-                else:
-                    return 'OK'
-        else:
-            return 'OK'
+
+        # If after is None (no more pages left) or data is None, return 'OK'
+        return 'OK'
     else:
         return None
+
