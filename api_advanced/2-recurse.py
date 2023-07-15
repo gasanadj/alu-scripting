@@ -23,6 +23,6 @@ def recurse(subreddit, hot_list=[], after=None):
                 else:
                     return 'OK'
         else:
-            return hot_list
+            return 'OK'
     else:
         return None
